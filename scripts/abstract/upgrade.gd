@@ -1,4 +1,4 @@
-class_name abs_upgrade
+class_name AbsUpgrade
 extends Node
 ## Classe abstrata para defição dos Upgrades.
 
