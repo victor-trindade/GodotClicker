@@ -20,3 +20,8 @@ func _singleton_check() -> void:
 func _enter_tree():
 	_singleton_check()
 	data = Data.new()
+	SaveSystem.load_data()
+
+## salva o jogo quando o timer reeinicia.
+func _on_save_timer_timeout():
+	SaveSystem.save_data()
