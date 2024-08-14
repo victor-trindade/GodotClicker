@@ -1,5 +1,5 @@
 class_name  Up01ClickerUpgrade
-extends Node
+extends abs_upgrade
 ## Upgrade 01 - Aumenta a quantidade de click criado.
 
 ## Sinal enviado quando o upgrade sobe de nível.
